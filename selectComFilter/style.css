@@ -1,0 +1,37 @@
+.label {
+    cursor: pointer;
+  }
+
+.select2 {
+    width: 100% !important;
+}
+
+.select2-selection__rendered {
+  line-height: 31px !important;
+}
+
+.select2-container .select2-selection--single {
+  height: 35px !important;
+}
+
+.select2-selection__arrow {
+  height: 34px !important;
+  background-image: url(http://intranet.marcopolo.com.br/style-guide/images/chevron-down.png); /* http://vm-marmixa/style-guide/images/chevron-down.png http://intranet.marcopolo.com.br/style-guide/images/chevron-down.png */
+  background-position: calc(100% - 4px) center !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  width: 30px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  display: none;
+}
+
+.select2 {
+  width: 100% !important;
+}
+
+.select2-container--open {
+  z-index: 9999999 !important;
+}
